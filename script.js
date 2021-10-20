@@ -37,6 +37,8 @@ class Wagon{
         for(let i=0; i<this.passageiros.length; i++){
             if(this.passageiros[i].isHealthy == false){
                 return true;
+            }else{
+                return false;
             }
         }
     }
